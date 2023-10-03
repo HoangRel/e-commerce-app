@@ -1,0 +1,37 @@
+.section {
+  /* margin-top: 36px; */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section p {
+  color: var(--color-gray);
+}
+
+.section h3 {
+  margin: 4px 0 24px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.category > div {
+  display: grid;
+  gap: 28px;
+}
+
+.category :first-child {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.category :last-child {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.category img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

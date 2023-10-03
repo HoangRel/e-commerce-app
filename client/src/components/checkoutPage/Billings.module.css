@@ -1,0 +1,82 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.container > form > label {
+  margin: 24px 0 12px;
+  text-transform: uppercase;
+  color: var(--color-gray-bold);
+  font-size: 1.4rem;
+}
+
+.container > form > input {
+  padding-left: 16px;
+  font-style: normal;
+  height: 4rem;
+  outline: none;
+}
+
+.container > form > input::placeholder {
+  color: var(--color-gray);
+}
+
+.container > form > button,
+.container > form > a {
+  margin-top: 1.6rem;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  background-color: var(--color-primary);
+  color: var(--color-gray);
+  border: none;
+  text-align: center;
+}
+
+.container > form > button:hover {
+  background-color: var(--color-gray);
+  color: var(--color-light);
+}
+
+.wrap {
+  padding: 5rem 4rem;
+  flex: 1;
+  background-color: var(--color-gray-min);
+}
+
+.wrap > h2 {
+  margin-bottom: 2.5rem;
+}
+
+.item {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid var(--color-gray);
+  gap: 1rem;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.total > p {
+  font-size: 1.7rem;
+  color: var(--color-gray-bold);
+}
+
+.valid {
+  background-color: var(--color-primary);
+}

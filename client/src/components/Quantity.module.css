@@ -1,0 +1,18 @@
+.quantity {
+  display: inline-block;
+  padding: 7px 10px;
+  font-size: 1.1rem;
+  border-top: 0.5px solid var(--color-gray);
+  border-bottom: 0.5px solid var(--color-gray);
+  font-weight: 700;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.none {
+  cursor: not-allowed;
+}
+
+.num {
+  cursor: unset;
+}

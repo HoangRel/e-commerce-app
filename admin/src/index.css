@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  color: #616060;
+}
+
+.DasSec {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.DasSec > h3 {
+  color: blueviolet;
+  text-align: center;
+}
+
+.DasSec p {
+  margin-left: 12px;
+}
+
+.DasSec nav > a,
+#onLogout {
+  display: flex;
+  margin-left: 24px;
+  gap: 16px;
+  color: #616060;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#onLogout > p {
+  font-size: 1rem;
+}
+
+.onLogout {
+  margin-left: 100px;
+}
+
+.DasSec nav > p {
+  font-size: 0.8rem;
+  margin-top: 36px;
+}
+
+.div2 {
+  box-shadow: 10px 10px 10px 5px rgba(36, 29, 29, 0.43);
+}
+
+.div3 {
+  border-top: 0.1px solid #616060;
+}
+
+.mainDiv {
+  margin-top: 18px;
+  border-top-left-radius: 12px;
+}
+
+.hiname {
+  display: inline-block;
+  text-align: right;
+  color: blue;
+}
+
+.hiname > p {
+  margin-bottom: 0;
+  margin-right: 24px;
+}
+
+button {
+  cursor: pointer;
+}

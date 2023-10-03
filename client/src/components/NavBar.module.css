@@ -1,0 +1,52 @@
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 24px 12px;
+}
+
+.nav > h2 {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav ul {
+  display: flex;
+  gap: 4px;
+}
+
+.nav li {
+  font-size: 1.2rem;
+  margin: 12px;
+}
+
+.nav button {
+  border: none;
+  background-color: var(--color-light);
+}
+
+.nav a {
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.nav a:hover,
+.nav a.active,
+.nav button:hover {
+  color: var(--color-secondary);
+}
+
+.acc select {
+  border: none;
+  text-align: end;
+  font-style: normal;
+}
+
+.acc select:focus {
+  outline: none;
+}

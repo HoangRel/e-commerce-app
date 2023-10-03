@@ -1,0 +1,8 @@
+.section {
+  padding: 1rem;
+  background-color: rgba(205, 247, 247, 0.472);
+}
+.section h1 {
+  color: #afadad;
+  margin: 0 2rem 3rem;
+}

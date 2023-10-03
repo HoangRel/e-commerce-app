@@ -1,0 +1,27 @@
+.categories > div,
+.categories > div > article {
+  display: flex;
+  flex-direction: column;
+}
+
+.categories h4 {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.categories h5 {
+  background-color: var(--color-gray-min);
+  margin-bottom: 10px;
+}
+
+.categories h4,
+.categories h5 {
+  padding: 12px 0 12px 24px;
+}
+
+.categories span {
+  padding: 10px 0 10px 24px;
+  cursor: pointer;
+}

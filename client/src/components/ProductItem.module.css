@@ -1,0 +1,20 @@
+.product {
+  height: 100%;
+  width: 100%;
+}
+
+.product img {
+  height: 80%;
+  width: 100%;
+}
+
+.product img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.product > div {
+  margin: 18px 10px 0;
+  text-align: center;
+  line-height: 1.5;
+}

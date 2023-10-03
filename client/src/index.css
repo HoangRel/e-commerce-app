@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+:root {
+  --color-primary: #161717;
+  --color-secondary: #f39c12;
+  --color-gray: #bdc3c7;
+  --color-gray-min: #f4f4f4;
+  --color-light: #ffffff;
+  --color-dark: #404040;
+  --color-gray-bold: #91999e;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: var(--color-dark);
+}
+
+main,
+nav {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+section {
+  margin-top: 68px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 72px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+blockquote {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: var(--color-gray);
+  margin-right: 2px;
+}
+
+img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+p,
+blockquote,
+span {
+  color: var(--color-gray);
+}
+
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.active {
+  color: var(--color-secondary);
+}
+
+.message {
+  margin: 100px auto;
+  text-align: center;
+}
+
+strong {
+  font-weight: 600;
+  color: var(--color-primary);
+}

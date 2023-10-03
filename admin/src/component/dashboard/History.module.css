@@ -1,0 +1,46 @@
+.container {
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px 5px rgba(240, 240, 240, 0.457);
+  background-color: white;
+}
+.container > h2 {
+  color: black;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid #e4e4e4;
+  padding: 0 0.5rem;
+}
+.thead {
+  height: 3rem;
+}
+.thead th {
+  text-align: start;
+}
+
+.tbody > tr {
+  height: 4rem;
+}
+
+.tbody td:first-child {
+  min-width: 175px;
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: #e7f6f974;
+}
+
+.view > a {
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  background-color: #2f9e44;
+  color: #fff;
+}
+.view > a:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,31 @@
+.info {
+  margin: 60px;
+}
+
+.info > h1 {
+  margin-bottom: 24px;
+}
+
+.table {
+  font-size: 1.5rem;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+.table th {
+  text-transform: uppercase;
+  background-color: var(--color-gray-min);
+  height: 62px;
+}
+
+.table th,
+.table td {
+  padding: 0 12px;
+}
+
+.img {
+  width: 300px;
+}

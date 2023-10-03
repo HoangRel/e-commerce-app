@@ -1,0 +1,16 @@
+.relatedProducts {
+  display: flex;
+  height: 320px;
+  margin-top: 24px;
+  gap: 12px;
+}
+
+.relatedProducts > div {
+  flex-basis: 250px;
+}
+
+.relatedProducts h4,
+.relatedProducts p {
+  font-size: 1rem;
+  text-transform: capitalize;
+}

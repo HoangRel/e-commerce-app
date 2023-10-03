@@ -1,0 +1,94 @@
+.section {
+  background-image: url("../../images/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 885px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--color-light);
+  border-radius: 1rem;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  width: 37%;
+  text-align: center;
+}
+
+.container h1 {
+  margin: 72px auto;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: var(--color-gray-bold);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+}
+
+.form input {
+  margin-bottom: -1px;
+  padding-left: 32px;
+  font-size: 1.2rem;
+  border: 1px solid var(--color-gray);
+  outline: none;
+  height: 76px;
+  width: 100%;
+}
+
+.form input::placeholder {
+  color: var(--color-gray-bold);
+  font-style: normal;
+}
+
+.form button {
+  margin-top: 2rem;
+  color: var(--color-gray-min);
+  background-color: var(--color-primary);
+  height: 76px;
+  font-size: 1.4rem;
+  border: none;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+}
+
+.container p {
+  margin: 24px auto;
+  color: var(--color-gray-bold);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.form > div {
+  position: relative;
+}
+
+.invalid input {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-gray);
+}
+
+.error {
+  display: inline-block;
+  color: var(--color-gray-bold);
+  font-weight: 600;
+  position: absolute;
+  right: -130px;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

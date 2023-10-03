@@ -1,0 +1,33 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section button {
+  width: 200px;
+  height: 45px;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-gray);
+}
+
+.section button:hover {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+}
+
+.section h5,
+.section li {
+  color: var(--color-gray);
+}
+
+.section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section li {
+  list-style: inside;
+}

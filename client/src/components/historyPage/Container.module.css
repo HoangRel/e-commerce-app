@@ -1,0 +1,27 @@
+.hisSec table {
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0 2em;
+}
+
+.hisSec th,
+.hisSec td {
+  padding: 0 12px;
+}
+
+.hisSec th {
+  text-transform: uppercase;
+  background-color: var(--color-gray-min);
+  height: 62px;
+}
+
+.hisSec tbody {
+  color: var(--color-gray-bold);
+}
+
+.hisSec tr td:last-child p {
+  border: 1px solid black;
+  width: 90px;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.intro {
+  background: #eaeaeaba;
+  display: flex;
+  justify-content: space-around;
+  height: 16rem;
+  align-items: center;
+}
+
+.intro p {
+  color: var(--color-gray);
+  margin-top: 12px;
+}
+
+.partici {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partici > div {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.partici p {
+  color: var(--color-gray);
+  margin-top: 8px;
+}

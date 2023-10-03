@@ -1,0 +1,35 @@
+.infoHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  margin: 2rem;
+  background-color: white;
+}
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 0 4px 4px rgba(212, 211, 211, 0.243);
+}
+.content h1 {
+  margin: 0 1rem;
+  font-size: 2rem;
+  color: black;
+  position: relative;
+}
+.content span {
+  font-size: 1rem;
+  font-weight: bold;
+  position: absolute;
+}
+.content > p {
+  color: #989b98;
+  margin: 0;
+  margin-left: 1rem;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #989b9875;
+}
