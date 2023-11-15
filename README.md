@@ -1,49 +1,46 @@
-
 # E-Commerce Website
 
+## Introduction
+This project consists of a NodeJS backend server (running on port 8080) and two ReactJS frontend applications—one for users (running on port 3000) and one for administrators (running on port 3001).
 
-## Giới thiệu
-Dự án này bao gồm một server backend NodeJS (chạy ở cổng 8080) và hai ứng dụng frontend ReactJS - một dành cho người dùng (chạy ở cổng 3000) và một dành cho quản trị viên (chạy ở cổng 3001).
+## Features
 
-## Các Chức Năng
+1. **User Authentication:**
+   - Register and log in to experience the full range of features.
+   - Secure user information with authentication and session management.
 
-1. **Xác thực Người Dùng:**
-   - Đăng ký và đăng nhập để trải nghiệm đầy đủ các chức năng.
-   - Bảo mật thông tin người dùng với xác thực và quản lý phiên.
+2. **Display Data on the Home Page:**
+   - Showcase products, categories, and promotional information directly on the homepage.
 
-2. **Hiển Thị Dữ Liệu trên Home Page:**
-   - Hiển thị các sản phẩm, danh mục, và thông tin khuyến mãi trực tiếp trên trang chủ.
+3. **Create Orders:**
+   - Users can add products to the cart and create orders.
+   - Review and modify orders before confirming the purchase.
 
-3. **Tạo Đơn Hàng:**
-   - Người dùng có thể thêm sản phẩm vào giỏ hàng và tạo đơn hàng.
-   - Kiểm tra và chỉnh sửa đơn hàng trước khi xác nhận mua.
+4. **Send Confirmation Email:**
+   - Send order confirmation emails to users after completing a purchase.
 
-4. **Gửi Email Xác Nhận:**
-   - Gửi email xác nhận đơn hàng đến người dùng sau khi hoàn tất mua sắm.
+5. **Admin Page:**
+   - Manage categories, products, and orders from the Admin page.
+   - Easily update the status of orders and manage data.
 
-5. **Trang Admin:**
-   - Quản lý danh mục, sản phẩm, và đơn hàng từ trang Admin.
-   - Cập nhật trạng thái của đơn hàng và quản lý dữ liệu dễ dàng.
-
-6. **Cơ Chế Tải Ảnh Lên Server:**
-   - Cho phép người dùng và admin tải ảnh sản phẩm lên server.
-
+6. **Image Upload Mechanism:**
+   - Allow users and admins to upload product images to the server.
 
 ## Demo
 [Client](https://client-rr.web.app/)
 
-## Hướng Dẫn Khai Thác
+## Usage Guide
 
-### Cài Đặt
+### Installation
 
-1. Clone repository về máy của bạn.
-2. Di chuyển vào thư mục `client` và chạy lệnh `npm install`.
+1. Clone the repository to your machine.
+2. Navigate to the `client` directory and run the command `npm install`.
 
-### Khởi Chạy
+### Running
 
-1. **Khởi Chạy Ứng Dụng:**
-   - Di chuyển vào thư mục `client`.
-   - Chạy lệnh `npm start` để khởi động ứng dụng.
+1. **Start the Application:**
+   - Navigate to the `client` directory.
+   - Run the command `npm start` to launch the application.
 
-2. **Truy Cập Ứng Dụng:**
-   - Mở trình duyệt và truy cập [http://localhost:3000](http://localhost:3000).
+2. **Access the Application:**
+   - Open a browser and go to [http://localhost:3000](http://localhost:3000).
